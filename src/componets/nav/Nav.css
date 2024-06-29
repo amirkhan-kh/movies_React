@@ -1,0 +1,35 @@
+nav{
+    width: 100%;
+    background: silver;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.card-container{
+    display: grid;
+    gap: 20px 12px;
+    grid-template-columns: repeat(4, 1fr);
+}
+.div{
+    gap: 15px;
+    display: flex;
+    align-items: center;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ul li{
+    text-decoration: none;
+}
+.logo h2{
+    font-family: "Alata", sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    background-image: url(../../assets/clip.webp);
+}
+
