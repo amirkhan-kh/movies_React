@@ -23,8 +23,8 @@ const Home = () => {
 
   return (
     <div className='body'>
-    <div className='container'>
       <h1>TV Shows</h1>
+      <div className="wrapper">
       <div className="card-container">
         {shows.map(show => (
           <div key={show.id} className="card">
